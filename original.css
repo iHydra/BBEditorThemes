@@ -222,8 +222,8 @@ div.sceditor-grip  {
 }
 .sceditor-container {
     position: relative;
-    background: #fff;
-    border: 1px solid #d9d9d9;
+    background: #303030 !important;
+    border: 1px solid #222 !important;
     padding: 0 4px;
     font-size: 13px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -256,7 +256,7 @@ div.sceditor-grip  {
     padding: 4px;
     margin: 5px;
     resize: none;
-    background: #fff;
+    background: #333 !important;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -450,8 +450,8 @@ div.sceditor-insertemoticon, div.sceditor-color-picker {
 div.sceditor-toolbar {
     overflow: hidden;
     padding: 2px 2px 1px;
-    background: #f7f7f7;
-    border-bottom: 1px solid #c0c0c0;
+    background: #222222 !important;
+    border-bottom: 0px !important;
     line-height: 0;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -466,10 +466,10 @@ div.sceditor-toolbar {
 }
 div.sceditor-group {
     display: inline-block;
-    background: #eee;
+    background: #333 !important;
     margin: 1px 5px 1px 0;
     padding: 1px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 0px !important;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -490,7 +490,7 @@ div.sceditor-group {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-     border:  1px solid #eee;
+    border:  1px solid #333 !important;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -510,16 +510,14 @@ div.sceditor-group {
     margin: 5px 0;
 }
 .sceditor-button:hover, .sceditor-button:active, .sceditor-button.active {
-    background: #fff;
-    /*-webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.3), inset -1px 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.3), inset -1px 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.3), inset -1px 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2)*/border: 1px solid #ddd;
+    background: #3F3F3F !important;
+    border: 1px solid #3F3F3F !important;
 }
 .sceditor-button:active {
-    background: #fff;
-    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.3), inset -1px 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2), inset 0 0 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.3), inset -1px 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2), inset 0 0 8px rgba(0, 0, 0, 0.3);
-    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.3), inset -1px 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2), inset 0 0 8px rgba(0, 0, 0, 0.3);
+    background: #3F3F3F !important;
+    -webkit-box-shadow: 0 !important;
+    -moz-box-shadow: 0 !important;
+    box-shadow: 0 !important;
 }
 .sceditor-button.disabled:hover {
     background: inherit;
